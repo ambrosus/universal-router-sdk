@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.5.8",
+  "name": "@airdao/universal-router-sdk",
+  "version": "1.5.8-airdao.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,11 +50,11 @@
   },
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.6.0",
-    "@uniswap/sdk-core": "^4.0.0",
+    "@airdao/router-sdk": "1.6.0-airdao.0",
+    "@airdao/sdk-core": "4.0.7-airdao.0",
     "@uniswap/universal-router": "1.4.3",
-    "@uniswap/v2-sdk": "^3.2.0",
-    "@uniswap/v3-sdk": "^3.10.0",
+    "@airdao/v2-sdk": "3.2.3-airdao.0",
+    "@airdao/v3-sdk": "3.10.0-airdao.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },

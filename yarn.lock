@@ -1916,6 +1916,54 @@
     "@sentry/types" "5.30.0"
     tslib "^1.9.3"
 
+"@sigismund/router-sdk@1.6.0-airdao.7":
+  version "1.6.0-airdao.7"
+  resolved "https://registry.yarnpkg.com/@sigismund/router-sdk/-/router-sdk-1.6.0-airdao.7.tgz#d7c4a47dacb2cc1418a642321f46cd47f2ffc279"
+  integrity sha512-XkSYm2+swDwKiGFGirAVpcQPKT4hffzVa+B3tTm5dOZQ0D4yFYoIikB8GO3s9IsxwoF1cqYFyyfnbZ8pxUIz+g==
+  dependencies:
+    "@ethersproject/abi" "^5.5.0"
+    "@sigismund/sdk-core" "4.0.7-airdao.1"
+    "@sigismund/v2-sdk" "3.2.3-airdao.5"
+    "@sigismund/v3-sdk" "3.10.0-airdao.3"
+    "@uniswap/swap-router-contracts" "1.1.0"
+
+"@sigismund/sdk-core@4.0.7-airdao.1":
+  version "4.0.7-airdao.1"
+  resolved "https://registry.yarnpkg.com/@sigismund/sdk-core/-/sdk-core-4.0.7-airdao.1.tgz#497d22a39d59773246b724ee5d9eeca47a21120e"
+  integrity sha512-IatplwhfMHB2BhgkksDoRGdqx+H+UKb1wlef6OJK74dKETrjKljnmJMY3r+Pae34w6yKqX1SIZrqtqTX9Gru/Q==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@sigismund/v2-sdk@3.2.3-airdao.5":
+  version "3.2.3-airdao.5"
+  resolved "https://registry.yarnpkg.com/@sigismund/v2-sdk/-/v2-sdk-3.2.3-airdao.5.tgz#7863560628a1fb3c24b2179ac16681d810c62f29"
+  integrity sha512-0genSS0kiKKZldBlEWx2t4VsDtFjALaS/IYDCDcwnUuWpVfcc9A86kdfjf2tkLkXWrNJqH2rL4xmWyaqgfav7Q==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@sigismund/sdk-core" "4.0.7-airdao.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
+"@sigismund/v3-sdk@3.10.0-airdao.3":
+  version "3.10.0-airdao.3"
+  resolved "https://registry.yarnpkg.com/@sigismund/v3-sdk/-/v3-sdk-3.10.0-airdao.3.tgz#4780a09a086baa0b059a6078fd14b5033b546cf0"
+  integrity sha512-2clqQ+qoxkeCD/0LB3zL8PyRFS4kFtVEotKL1Ebc2ftQ1N1BE9kqJTQlmSQguY67aVtFoz5CXcmwV4SSGOVsyA==
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@sigismund/sdk-core" "4.0.7-airdao.1"
+    "@uniswap/swap-router-contracts" "^1.2.1"
+    "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://registry.npmjs.org/@sinonjs/commons/-/commons-1.8.3.tgz"
@@ -2192,32 +2240,9 @@
     ethers "^5.3.1"
     tiny-invariant "^1.3.1"
 
-"@uniswap/router-sdk@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/router-sdk/-/router-sdk-1.6.0.tgz#2f51dbba1b01467244b59500ed0da8aa84323f8c"
-  integrity sha512-onpAzcvEnrsm8tUtu49IrR9EP3n9j0IDpGc0Ee3FDDkVgXrp9cIrAADC+yb56vgLtJFnshbhyIdjXLMIzWe0Gw==
-  dependencies:
-    "@ethersproject/abi" "^5.5.0"
-    "@uniswap/sdk-core" "^4"
-    "@uniswap/swap-router-contracts" "1.1.0"
-    "@uniswap/v2-sdk" "^3.2.0"
-    "@uniswap/v3-sdk" "^3.10.0"
-
-"@uniswap/sdk-core@^4", "@uniswap/sdk-core@^4.0.0", "@uniswap/sdk-core@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.2.tgz#2eca2b5bf00bad74519aef918465c19218285b4b"
-  integrity sha512-rR5xobsAAP4yMYC7C+0+duVx0pFoDn2lV9kTWpoKgH1WJuw7hD1uDEvuevU2dL89TuixVgGvnYd0QxmrMtsIlg==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 "@uniswap/swap-router-contracts@1.1.0":
   version "1.1.0"
-  resolved "https://registry.npmjs.org/@uniswap/swap-router-contracts/-/swap-router-contracts-1.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/@uniswap/swap-router-contracts/-/swap-router-contracts-1.1.0.tgz#e027b14d4c172f231c53c48e1fd708a78d7d94d8"
   integrity sha512-GPmpx1lvjXWloB95+YUabr3UHJYr3scnSS8EzaNXnNrIz9nYZ+XQcMaJxOKe85Yi7IfcUQpj0HzD2TW99dtolA==
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
@@ -2252,17 +2277,6 @@
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@uniswap/v2-sdk@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-sdk/-/v2-sdk-3.2.0.tgz#2b872cb83ac60ba66dc1d11acd7795b67ca8ceb1"
-  integrity sha512-kBOJ6Iwtgb/2LckLMIzfbPM37/ll0F+33lzPmZlqoJwsT0F2hZdVfAhclufZcSb0Y9RdLXl6372CZJ+lhx8cUQ==
-  dependencies:
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^4.0.2"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-
 "@uniswap/v3-core@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@uniswap/v3-core/-/v3-core-1.0.0.tgz"
@@ -2270,7 +2284,7 @@
 
 "@uniswap/v3-periphery@1.3.0":
   version "1.3.0"
-  resolved "https://registry.npmjs.org/@uniswap/v3-periphery/-/v3-periphery-1.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.3.0.tgz#37f0a1ef6025221722e50e9f3f2009c2d5d6e4ec"
   integrity sha512-HjHdI5RkjBl8zz3bqHShrbULFoZSrjbbrRHoO2vbzn+WRzTa6xY4PWphZv2Tlcb38YEKfKHp6NPl5hVedac8uw==
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
@@ -2302,20 +2316,6 @@
     "@uniswap/v2-core" "1.0.1"
     "@uniswap/v3-core" "1.0.0"
     base64-sol "1.0.1"
-
-"@uniswap/v3-sdk@^3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.10.0.tgz#962c9e598250ced00702d944783c2d9ee3fa12f6"
-  integrity sha512-sbmSA1O+Ct960r66Ie/c1rOmVadpwRu8nQ79pGICv0pZJdnFIQ/SReG3F+iC2C2UNNjNP6aC2WDUggXrjyrgnA==
-  dependencies:
-    "@ethersproject/abi" "^5.0.12"
-    "@ethersproject/solidity" "^5.0.9"
-    "@uniswap/sdk-core" "^4"
-    "@uniswap/swap-router-contracts" "^1.2.1"
-    "@uniswap/v3-periphery" "^1.1.1"
-    "@uniswap/v3-staker" "1.0.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@uniswap/v3-staker@1.0.0":
   version "1.0.0"
