@@ -2,6 +2,54 @@
 # yarn lockfile v1
 
 
+"@airdao/router-sdk@1.6.0-airdao.0":
+  version "1.6.0-airdao.0"
+  resolved "https://registry.yarnpkg.com/@airdao/router-sdk/-/router-sdk-1.6.0-airdao.0.tgz#c71eced39d48986589010ac25f1c8aa5d94bc3a9"
+  integrity sha512-36/NT7dpy887P1oy8RecqhEKPEC5V1Fdv/UJVdSSK11eZRy9J0xU2TlqKpUuw4NLBwmgdlhGCHHQSH9WeKqxyw==
+  dependencies:
+    "@airdao/sdk-core" "4.0.7-airdao.0"
+    "@airdao/v2-sdk" "3.2.3-airdao.0"
+    "@airdao/v3-sdk" "3.10.0-airdao.0"
+    "@ethersproject/abi" "^5.5.0"
+    "@uniswap/swap-router-contracts" "1.1.0"
+
+"@airdao/sdk-core@4.0.7-airdao.0":
+  version "4.0.7-airdao.0"
+  resolved "https://registry.yarnpkg.com/@airdao/sdk-core/-/sdk-core-4.0.7-airdao.0.tgz#f1e7a7b6d27386eb7b1f6710bbeba45f71ba6585"
+  integrity sha512-HylW92Q7jbd7L3q7mvOhZi4XnPFt6kslGHkIA2mRnQ7g5lG68/ESuQWTeXWv0wXBsqNvSMskzbguR++i6nOGXg==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@airdao/v2-sdk@3.2.3-airdao.0":
+  version "3.2.3-airdao.0"
+  resolved "https://registry.yarnpkg.com/@airdao/v2-sdk/-/v2-sdk-3.2.3-airdao.0.tgz#c3f3540f6e6a661c562fab3261f93783d955963e"
+  integrity sha512-cY3XMNxxQnd4RTARFTyi8jokccGfJWGVDA36PBcnpqdv880EhOlH0qxEHKzGF+HCf/1zAMfrMhMpSvOQaqV3UQ==
+  dependencies:
+    "@airdao/sdk-core" "4.0.7-airdao.0"
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
+"@airdao/v3-sdk@3.10.0-airdao.0":
+  version "3.10.0-airdao.0"
+  resolved "https://registry.yarnpkg.com/@airdao/v3-sdk/-/v3-sdk-3.10.0-airdao.0.tgz#a67d74466eab8d7966a6ec0750bebb4e1b57fb18"
+  integrity sha512-/+jo5WmhhFwIfCsR422yi/SICb9iQx5ubtz2I4hNXSojhUr5ob1AO4onTOLEdrZzEYxJKasMtNbt2KCOwM7nuA==
+  dependencies:
+    "@airdao/sdk-core" "4.0.7-airdao.0"
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@uniswap/swap-router-contracts" "^1.2.1"
+    "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.0.tgz"
@@ -1915,54 +1963,6 @@
   dependencies:
     "@sentry/types" "5.30.0"
     tslib "^1.9.3"
-
-"@sigismund/router-sdk@1.6.0-airdao.7":
-  version "1.6.0-airdao.7"
-  resolved "https://registry.yarnpkg.com/@sigismund/router-sdk/-/router-sdk-1.6.0-airdao.7.tgz#d7c4a47dacb2cc1418a642321f46cd47f2ffc279"
-  integrity sha512-XkSYm2+swDwKiGFGirAVpcQPKT4hffzVa+B3tTm5dOZQ0D4yFYoIikB8GO3s9IsxwoF1cqYFyyfnbZ8pxUIz+g==
-  dependencies:
-    "@ethersproject/abi" "^5.5.0"
-    "@sigismund/sdk-core" "4.0.7-airdao.1"
-    "@sigismund/v2-sdk" "3.2.3-airdao.5"
-    "@sigismund/v3-sdk" "3.10.0-airdao.3"
-    "@uniswap/swap-router-contracts" "1.1.0"
-
-"@sigismund/sdk-core@4.0.7-airdao.1":
-  version "4.0.7-airdao.1"
-  resolved "https://registry.yarnpkg.com/@sigismund/sdk-core/-/sdk-core-4.0.7-airdao.1.tgz#497d22a39d59773246b724ee5d9eeca47a21120e"
-  integrity sha512-IatplwhfMHB2BhgkksDoRGdqx+H+UKb1wlef6OJK74dKETrjKljnmJMY3r+Pae34w6yKqX1SIZrqtqTX9Gru/Q==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
-"@sigismund/v2-sdk@3.2.3-airdao.5":
-  version "3.2.3-airdao.5"
-  resolved "https://registry.yarnpkg.com/@sigismund/v2-sdk/-/v2-sdk-3.2.3-airdao.5.tgz#7863560628a1fb3c24b2179ac16681d810c62f29"
-  integrity sha512-0genSS0kiKKZldBlEWx2t4VsDtFjALaS/IYDCDcwnUuWpVfcc9A86kdfjf2tkLkXWrNJqH2rL4xmWyaqgfav7Q==
-  dependencies:
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    "@sigismund/sdk-core" "4.0.7-airdao.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-
-"@sigismund/v3-sdk@3.10.0-airdao.3":
-  version "3.10.0-airdao.3"
-  resolved "https://registry.yarnpkg.com/@sigismund/v3-sdk/-/v3-sdk-3.10.0-airdao.3.tgz#4780a09a086baa0b059a6078fd14b5033b546cf0"
-  integrity sha512-2clqQ+qoxkeCD/0LB3zL8PyRFS4kFtVEotKL1Ebc2ftQ1N1BE9kqJTQlmSQguY67aVtFoz5CXcmwV4SSGOVsyA==
-  dependencies:
-    "@ethersproject/abi" "^5.0.12"
-    "@ethersproject/solidity" "^5.0.9"
-    "@sigismund/sdk-core" "4.0.7-airdao.1"
-    "@uniswap/swap-router-contracts" "^1.2.1"
-    "@uniswap/v3-periphery" "^1.1.1"
-    "@uniswap/v3-staker" "1.0.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"

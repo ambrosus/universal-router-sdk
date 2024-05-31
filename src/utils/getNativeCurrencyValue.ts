@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Ether } from '@sigismund/sdk-core'
+import { Currency, CurrencyAmount, Ether } from '@airdao/sdk-core'
 
 export function getNativeCurrencyValue(currencyValues: CurrencyAmount<Currency>[]): CurrencyAmount<Currency> {
   for (const value of currencyValues) {

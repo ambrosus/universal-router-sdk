@@ -1,7 +1,7 @@
 import JSBI from 'jsbi'
 import { ethers } from 'ethers'
-import { MixedRouteTrade, MixedRouteSDK, Trade as RouterTrade } from '@sigismund/router-sdk'
-import { Trade as V2Trade, Pair, Route as RouteV2, computePairAddress } from '@sigismund/v2-sdk'
+import { MixedRouteTrade, MixedRouteSDK, Trade as RouterTrade } from '@airdao/router-sdk'
+import { Trade as V2Trade, Pair, Route as RouteV2, computePairAddress } from '@airdao/v2-sdk'
 import {
   Trade as V3Trade,
   Pool,
@@ -10,9 +10,9 @@ import {
   TickMath,
   TICK_SPACINGS,
   FeeAmount,
-} from '@sigismund/v3-sdk'
+} from '@airdao/v3-sdk'
 import { SwapOptions } from '../../src'
-import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@sigismund/sdk-core'
+import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@airdao/sdk-core'
 import IUniswapV3Pool from '@uniswap/v3-core/artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json'
 import { TEST_RECIPIENT_ADDRESS } from './addresses'
 
