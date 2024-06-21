@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@airdao/router-sdk@1.6.0-airdao.0":
-  version "1.6.0-airdao.0"
-  resolved "https://registry.yarnpkg.com/@airdao/router-sdk/-/router-sdk-1.6.0-airdao.0.tgz#c71eced39d48986589010ac25f1c8aa5d94bc3a9"
-  integrity sha512-36/NT7dpy887P1oy8RecqhEKPEC5V1Fdv/UJVdSSK11eZRy9J0xU2TlqKpUuw4NLBwmgdlhGCHHQSH9WeKqxyw==
+"@airdao/router-sdk@1.6.0-airdao.1":
+  version "1.6.0-airdao.1"
+  resolved "https://registry.yarnpkg.com/@airdao/router-sdk/-/router-sdk-1.6.0-airdao.1.tgz#382a465faaee2c0d3740fedf87e79a756baa47d3"
+  integrity sha512-75IxsZVl9UvXUZWxkT+NSTH1ySG9Gnl2R4vusXSSZ9IcSPyCaWVIXz0tfeWZXnlvlmI9/1p/Ozblz14MKnQSJg==
   dependencies:
     "@airdao/sdk-core" "4.0.7-airdao.0"
-    "@airdao/v2-sdk" "3.2.3-airdao.0"
+    "@airdao/v2-sdk" "3.2.3-airdao.1"
     "@airdao/v3-sdk" "3.10.0-airdao.0"
     "@ethersproject/abi" "^5.5.0"
     "@uniswap/swap-router-contracts" "1.1.0"
@@ -24,17 +24,6 @@
     jsbi "^3.1.4"
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
-
-"@airdao/v2-sdk@3.2.3-airdao.0":
-  version "3.2.3-airdao.0"
-  resolved "https://registry.yarnpkg.com/@airdao/v2-sdk/-/v2-sdk-3.2.3-airdao.0.tgz#c3f3540f6e6a661c562fab3261f93783d955963e"
-  integrity sha512-cY3XMNxxQnd4RTARFTyi8jokccGfJWGVDA36PBcnpqdv880EhOlH0qxEHKzGF+HCf/1zAMfrMhMpSvOQaqV3UQ==
-  dependencies:
-    "@airdao/sdk-core" "4.0.7-airdao.0"
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@airdao/v2-sdk@3.2.3-airdao.1":
   version "3.2.3-airdao.1"
