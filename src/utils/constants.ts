@@ -100,9 +100,9 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     creationBlock: 3229053,
   },
   [22040]: {
-      router: '0x9c5192c510d33101d0fcae100c8e531562e328c8',
+      router: '0x88BD655cf5Cc9655d405cf22775BE886c2288758',
       weth: '0x2Cf845b49e1c4E5D657fbBF36E97B7B5B7B7b74b',
-      creationBlock: 4257,
+      creationBlock: 606023,
   }
 }
 

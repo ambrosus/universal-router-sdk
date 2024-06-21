@@ -1,6 +1,6 @@
 {
   "name": "@airdao/universal-router-sdk",
-  "version": "1.5.8-airdao.0",
+  "version": "1.5.8-airdao.1",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -53,7 +53,7 @@
     "@airdao/router-sdk": "1.6.0-airdao.0",
     "@airdao/sdk-core": "4.0.7-airdao.0",
     "@uniswap/universal-router": "1.4.3",
-    "@airdao/v2-sdk": "3.2.3-airdao.0",
+    "@airdao/v2-sdk": "3.2.3-airdao.1",
     "@airdao/v3-sdk": "3.10.0-airdao.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"

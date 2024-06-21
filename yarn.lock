@@ -36,6 +36,17 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
+"@airdao/v2-sdk@3.2.3-airdao.1":
+  version "3.2.3-airdao.1"
+  resolved "https://registry.yarnpkg.com/@airdao/v2-sdk/-/v2-sdk-3.2.3-airdao.1.tgz#2fa93c0e4e69d8fc6f5dd7ad41169b6a00a9b10b"
+  integrity sha512-OkPn6V4mf4sObp6rVc/1anXolqDHyrPZIvJIW9MG+GGW3hzhJuKuM0bSPCdzIH8sehuZFas3Kv99HgPRuEvMDw==
+  dependencies:
+    "@airdao/sdk-core" "4.0.7-airdao.0"
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@airdao/v3-sdk@3.10.0-airdao.0":
   version "3.10.0-airdao.0"
   resolved "https://registry.yarnpkg.com/@airdao/v3-sdk/-/v3-sdk-3.10.0-airdao.0.tgz#a67d74466eab8d7966a6ec0750bebb4e1b57fb18"
